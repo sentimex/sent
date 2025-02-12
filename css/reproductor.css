@@ -1,0 +1,49 @@
+body{
+	text-align: center;
+
+	background: linear-gradient(to left, #872364, #23874c);
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+	display: block;
+}
+#reproductor{
+	float: center;
+	width:  FULL-WIDTH;
+	margin: 20px auto;
+	padding: 10px 5px 15px 5px;
+	background: #999999;
+	border: 1px solid #666666;
+	border-radius: 10px;
+}
+#play,#mute{
+	padding: 2px 10px;
+	width: 100px;
+	border: 1px solid #000000;
+	background: #DDDDDD;
+	font-weight: bold;
+	border-radius: 10px;
+}
+nav{
+	margin: 5px 0px;
+}
+#botones{
+	float: left;
+	width: 135px;
+	height: 50px;
+	padding-left: 5px;
+}
+
+#barra{
+	float: right;
+	width: 600px;
+	height: 16px;
+	padding: 2px;
+	margin:2px 5px;
+	border:1px solid #CCCCCC;
+	background: #EEEEEE;
+}
+#progreso{
+	width: 0px;
+	height: 16px;
+	background: rgba(10,190,150,2);
+}
